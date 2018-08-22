@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.Map;
 
+@SuppressWarnings("unused")
 @Controller
 public class HelloController {
 
