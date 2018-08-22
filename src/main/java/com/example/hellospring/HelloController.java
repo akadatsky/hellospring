@@ -42,7 +42,7 @@ public class HelloController {
     }
 
 
-    @PostMapping
+    @PostMapping("/add")
     public String add(@RequestParam String firstName, @RequestParam String secondName, Map<String, Object> model) {
         User user = new User(firstName, secondName);
 
